@@ -12,7 +12,7 @@ public class BoundingManager : MonoBehaviour {
     private int width,height;
 	// Use this for initialization
     //試しに追記　更新テスト
-
+    //Cloneもしてみる
 	void Start () {
         refObj = GameObject.Find("Plane");
         t2 = refObj.GetComponent<USTrackingTcpClient>();
@@ -39,16 +39,7 @@ public class BoundingManager : MonoBehaviour {
             //子オブジェクト参照して4つのCubeの座標変更　Cube1,2,3,4
             Vector3 temp;
             
-            //c2.transform.position = temp;
-            //temp = new Vector3(Outpos.x, Outpos.y, Outpos.z);
-            //temp.x -= (float)(xy[0] / (float)width);
-            //temp.y -= (float)(1.0 - xy[1] / (float)height);
-            //c3.transform.position = temp;
-            //temp = new Vector3(Outpos.x, Outpos.y, Outpos.z);
-            //temp.x -= (float)(xy[0] / (float)width);
-            //temp.y += (float)(1.0 - xy[1] / (float)height);
-            //c4.transform.position = temp;
-
+           
             Vector3 pos = new Vector3();
             temp = new Vector3(center[0]+xy[0]/2, center[1]+xy[1]/2, 0);     
             matPointToWorldPoint(ref pos, temp.x, temp.y);
