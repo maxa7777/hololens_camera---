@@ -13,6 +13,7 @@ public class BoundingManager : MonoBehaviour {
 	// Use this for initialization
     //試しに追記　更新テスト
     //Cloneもしてみる
+    //branch変更してみる
 	void Start () {
         refObj = GameObject.Find("Plane");
         t2 = refObj.GetComponent<USTrackingTcpClient>();
