@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hololens_camera", "hololens_camera.csproj", "{3BADBB46-CC67-D498-DA32-06544A256991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hololens_camera.Editor", "hololens_camera.Editor.csproj", "{24FEE9FE-C6B4-7711-89E2-C8414CEBC342}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BADBB46-CC67-D498-DA32-06544A256991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BADBB46-CC67-D498-DA32-06544A256991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BADBB46-CC67-D498-DA32-06544A256991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BADBB46-CC67-D498-DA32-06544A256991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FEE9FE-C6B4-7711-89E2-C8414CEBC342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FEE9FE-C6B4-7711-89E2-C8414CEBC342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FEE9FE-C6B4-7711-89E2-C8414CEBC342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FEE9FE-C6B4-7711-89E2-C8414CEBC342}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
