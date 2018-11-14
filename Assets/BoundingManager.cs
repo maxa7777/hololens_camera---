@@ -11,6 +11,8 @@ public class BoundingManager : MonoBehaviour {
     private GameObject c1, c2, c3, c4;
     private int width,height;
 	// Use this for initialization
+    //試しに追記　更新テスト
+
 	void Start () {
         refObj = GameObject.Find("Plane");
         t2 = refObj.GetComponent<USTrackingTcpClient>();
@@ -22,6 +24,7 @@ public class BoundingManager : MonoBehaviour {
         c2 = transform.GetChild(2).gameObject;
         c3 = transform.GetChild(3).gameObject;
         c4 = transform.GetChild(4).gameObject;
+        
     }
 	
 	// Update is called once per frame
@@ -35,14 +38,7 @@ public class BoundingManager : MonoBehaviour {
             transform.LookAt(Camera.main.transform);
             //子オブジェクト参照して4つのCubeの座標変更　Cube1,2,3,4
             Vector3 temp;
-            //temp =new Vector3(Outpos.x,Outpos.y,Outpos.z);
-            //// 画像座標を正規化，Y軸の向きを反転し，ビューポート座標を求める．
-            //temp.x += (float)(xy[0] / (float)width);
-            //temp.y += (float)(1.0 - xy[1] / (float)height);
-            //c1.transform.position = temp;
-            //temp = new Vector3(Outpos.x, Outpos.y, Outpos.z);
-            //temp.x += (float)(xy[0] / (float)width);
-            //temp.y -= (float)(1.0 - xy[1] / (float)height);
+            
             //c2.transform.position = temp;
             //temp = new Vector3(Outpos.x, Outpos.y, Outpos.z);
             //temp.x -= (float)(xy[0] / (float)width);
